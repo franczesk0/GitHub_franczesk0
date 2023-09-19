@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 80vh 20vh;
+    grid-template-columns: 25vh 75vh; 
+    grid-template-areas:
+    "menu content"
+    "footer footer";
+}
+
+#menu {
+    grid-area: menu;
+    background-color: cornflowerblue;
+    border: 1px solid;
+}
+
+#content {
+    grid-area: content;
+    background-color:dodgerblue;
+    border: 1px solid;
+}
+
+#footer {
+    grid-area: footer;
+    background-color: cornflowerblue;
+    border: 1px solid;
+}
