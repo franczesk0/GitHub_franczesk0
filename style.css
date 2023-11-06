@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 300px;
+    height: 300px;
+    border: 1px black solid;
+}
