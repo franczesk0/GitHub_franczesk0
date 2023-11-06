@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+#content {
+    display: flex;
+    width: 100vh;
+    height: 100%;
+    gap: 25px;
+    flex-wrap: wrap;
+    flex-direction: wrap;
+    justify-content: space-around;
+}
+
+.divCountry {
+    width: 300px;
+    height: 300px;
+    background-color: lightslategray;
+    color:antiquewhite;
+    border: solid white 1px;
+}
+
+.data {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+}
+
+.capital {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+
